@@ -17,4 +17,8 @@
  resource "azurerm_resource_group" "javiertf" {
    name     = "javiertf"
    location = "eastus2"
+
+   tags = {
+     cost_center = "contoso research"
+   }
  }
